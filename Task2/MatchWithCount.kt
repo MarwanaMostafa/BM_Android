@@ -4,7 +4,6 @@
 //Hint: if items = ["a", "abc"] and count = 3, will return true.
 
 fun MatchWithCount(list: List<String>,count:Int) :Boolean{
-    val result: MutableList<String> = mutableListOf("") 
     for (i in list) 
         if (i.length>=count) 
         	return true 
